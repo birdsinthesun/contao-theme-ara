@@ -1,0 +1,41 @@
+{
+    "name": "birdsinthesun/contao-theme-ara",
+    "type": "contao-theme",
+    "homepage": "https://github.com/birdsinthesun/contao-theme-ara",
+    "description": "Das Ara Theme ist ein Shop-Theme für das Contao CMS, das auf der beliebten Erweiterung MetaModels basiert. Es ist dazu gedacht die Erweiterung MM Shop näher kennenzulernen.",
+    "keywords": [
+        "theme",
+        "shop",
+        "contao",
+        "metamodels",
+        "mm_shop",
+        "ecommerce"
+    ],
+    "minimum-stability":"stable",
+    "prefer-stable": true,
+    "version": "main",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Monique Hahnefeld",
+            "email": "info@birdsinthesun.de",
+            "homepage": "https://birdsinthesun.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "contao/manager-bundle":"5.3.*",
+        "contao/core-bundle": "5.3.*"
+    },
+    "extra": {
+        "contao-component-dir": "assets"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php vendor/bin/contao-setup"
+        ],
+        "post-update-cmd": [
+            "@php vendor/bin/contao-setup"
+        ]
+    }
+}
