@@ -16,7 +16,7 @@ Passwort: HelloContao
 7. php bin/console contao:backup:restore
 8. die composer.json im Root in einem Editor öffnen
 9. die Requirements ergänzen mit dem erworbenen MetaModels Token
-10. das Requirement "birdsinthesun/mm_shop":"1.1.7" ergänzen
+10. das Requirement "birdsinthesun/mm_shop":"1.1.8" ergänzen
 11. composer install 
 12. php vendor/bin/contao-console contao:migrate
 13. im Backend einloggen
