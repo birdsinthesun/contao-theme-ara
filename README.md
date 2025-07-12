@@ -18,7 +18,7 @@ Das Ara Theme ist ein Shop-Theme für das Contao CMS, das auf der beliebten [Erw
 7. php bin/console contao:backup:restore
 8. die composer.json im Root in einem Editor öffnen
 9. die Requirements ergänzen mit dem erworbenen MetaModels Token
-10. das Requirement "birdsinthesun/mm_shop":"1.1.9" ergänzen
+10. das Requirement "birdsinthesun/mm_shop":"1.1.10" ergänzen
 11. composer install 
 12. php vendor/bin/contao-console contao:migrate
 13. im Backend einloggen
